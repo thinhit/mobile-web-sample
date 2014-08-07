@@ -1,0 +1,33 @@
+/*
+    Project : Mobile Web
+    Author : ThinhNVPH01986
+*/
+body {
+    background: #f2f2f2;
+    font-family: Tahoma;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#primary-page #category ul {
+    margin: 0;
+    padding: 0
+}
+
+#primary-page #category ul li {
+    list-style-position: inside;
+    list-style-type: none;
+    background: green;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+section#category {
+    overflow: hidden;
+    margin: 0px 10px;
+    padding-top:10px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 2px 0px #f9f9f9;
+
+}
