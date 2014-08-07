@@ -27,7 +27,7 @@ body {
     font-family: Tahoma;
     text-transform: uppercase;
     color:#e67e22;
-    margin-left:20px;
+    margin-left:10px;
     font-weight: bold;
 }
 section#category {
@@ -78,6 +78,8 @@ section#category ul li a:hover{
 }
 #list-story .media-object{
     width: 60px;
+    height: 68px;
+    overflow: hidden;
 }
 #list-story p{
     line-height: 10px;
@@ -91,3 +93,39 @@ section#category ul li a:hover{
     font-size: 16px;
 }
 
+#story-detail{
+    overflow: hidden;
+    background:white;
+    margin:10px;
+    padding:10px;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px #f9f9f9;   
+}
+#story-detail .title-box{
+    margin:0;
+    margin-bottom: 5px
+}
+#comment{
+    overflow: hidden;
+    margin:10px;
+    
+}
+#comment textarea{
+    width: 100%;
+    border-radius: 2px;
+    background:white;
+    padding:5px;
+    box-shadow: 0px 2px 0px #f9f9f9;   
+    border: none;
+    height:80px;   
+}
+#comment button{
+    background:#e67e22;
+    border:none;
+    border-radius: 2px;
+    color:white;
+    text-transform: uppercase;
+    padding:5px 10px;
+    margin-top:10px;
+    box-shadow: 0px 2px 0px #be6414;
+}
