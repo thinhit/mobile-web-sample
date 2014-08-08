@@ -59,8 +59,15 @@ section#category ul li a:hover{
 }
 .navbar-default .navbar-brand{
     color:white;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 
+}
+.navbar-default .navbar-brand:hover{
+    color:white;
+}
+.navbar-brand{
+    padding-left:0;
+    padding-right:0;
 }
 #list-story{
     overflow: hidden;
@@ -119,7 +126,7 @@ section#category ul li a:hover{
     border: none;
     height:80px;   
 }
-#comment button{
+#story-detail button{
     background:#e67e22;
     border:none;
     border-radius: 2px;
