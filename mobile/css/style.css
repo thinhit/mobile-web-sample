@@ -1,7 +1,11 @@
 /*
     Project : Mobile Web
     Author : ThinhNVPH01986
-*/
+*/\
+html {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
 body {
     background: #f2f2f2;
     font-family: Tahoma;
@@ -9,6 +13,9 @@ body {
     line-height: 18px;
 }
 
+#primary-page{
+    margin-top: 60px;
+}
 #primary-page #category ul {
     margin: 0;
     padding: 0
@@ -55,7 +62,11 @@ section#category ul li a:hover{
 }
 .navbar{
     border-radius: 0;
-
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
 }
 .navbar-default .navbar-brand{
     color:white;
@@ -135,4 +146,41 @@ section#category ul li a:hover{
     padding:5px 10px;
     margin-top:10px;
     box-shadow: 0px 2px 0px #be6414;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background:#ffffff;
+}
+.navbar-toggle{
+    float:left;
+    margin-left:10px;
+}
+#menu {
+    background: #333;
+    width: 200px;
+    position: fixed;
+    z-index: 99;
+    top: 50px;
+    bottom: 0;
+    display: none;
+}
+#menu.on {
+    
+    display: block;
+}
+#menu ul li {
+    list-style-type: none;
+    list-style-position: inside;
+}
+#menu ul li a{
+    padding:10px 5px;
+    display:block;
+    color:white;
+    text-decoration: none;
+    border-bottom: 1px solid #444;
+}
+#menu ul  {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding:0;
 }
